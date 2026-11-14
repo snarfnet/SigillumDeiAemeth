@@ -55,7 +55,6 @@ def upload_file(set_id, filepath):
 DISPLAY_TYPES = [
     ('APP_IPHONE_67', 'iphone_67'),
     ('APP_IPAD_PRO_3GEN_129', 'ipad_129'),
-    ('APP_IPAD_PRO_6GEN_129', 'ipad_129'),
 ]
 
 screenshot_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'screenshots')
