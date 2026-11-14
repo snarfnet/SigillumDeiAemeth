@@ -29,7 +29,7 @@ targets:
       path: App/Info.plist
       properties:
         CFBundleName: SigillumDeiAemeth
-        CFBundleDisplayName: 神の真理の印章
+        CFBundleDisplayName: Sigillum Dei Aemeth
         CFBundleDevelopmentRegion: ja
         CFBundleLocalizations: [ja, en]
         CFBundleShortVersionString: "1.0"
