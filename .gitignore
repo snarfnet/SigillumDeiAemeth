@@ -1,0 +1,10 @@
+.DS_Store
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.xcodeproj/
+.omc/
+tools/ref/
+__pycache__/
+tools/shots/

@@ -1,0 +1,1376 @@
+{
+ "title": "Sigillum Dei Aemeth (Dee's version, Sloane MS 3188)",
+ "manuscriptHeading": "SIGILLVM DEI AEMETH / EMETH nuncupatum, Hebraice ... DEI (heading above the drawing, Sloane 3188 f.30r; the Hebrew word is not transcribed here)",
+ "manuscriptHeading_unverified": true,
+ "primarySource": "John Dee, Mysteriorum Liber Secundus (British Library Sloane MS 3188); sessions at Mortlake, 19-21 March 1582, with Edward Kelley as scryer (he then called himself Edward Talbot, 'E.T.').",
+ "conventions": {
+  "angles": "Degrees are measured CLOCKWISE from straight up (12 o'clock), looking at the front of the seal.",
+  "textOrientation": "In Dee's drawing and in Peterson's redrawing, all lettering is radial: letter tops point OUTWARD and text runs clockwise, so text at the bottom appears upside-down. 'Above' a letter therefore means its outer side and 'below' means its inner side.",
+  "nestingOrderOutsideIn": [
+   "L1 outer ring (40 cells)",
+   "L2 seven circle-segments with the Galethog sigils",
+   "L3 outer heptagon band (49 letters: the Zaphkiel ... Gabriel table)",
+   "L4 seven triangles on the heptagon sides: 7 names of God",
+   "L5 heptagram {7/2}: Daughters of Light in the points, Sons of Light in the strips",
+   "L6 heptagon band: Daughters of the Daughters",
+   "L7 heptagon band: Sons of the Sons",
+   "L8 innermost heptagon: ZABATHIEL letters",
+   "L9 pentagram: Zedekieil, Madimiel, Semeliel, Nogahel, Corabiel",
+   "L10 central cross: Levanael"
+  ],
+  "physical": "On 10 March 1582 (Liber I) Dee was told to make the seal of clean purified wax ('we have no respect of colours'), 9 inches in diameter, with a circumference of 27 inches 'and somwhat more', and 'an ynche and half a quarter' (1 1/8 in) thick, with a cross on the back. The shape of that cross is a small drawing in the MS; the OCR text does not reproduce it.",
+  "backCross_unverified": true
+ },
+ "layers": [
+  {
+   "id": "L1_outerRing",
+   "name": "Outer circumference: 40 cells",
+   "date": "19 March 1582 (dated so in Dee's Heptarchia Mystica extract; Peterson marks the Liber II session date 'uncertain'); corrections the same evening; reading rule the same day",
+   "geometry": {
+    "shape": "Annulus between two concentric circles, divided into 40 equal 9-degree cells.",
+    "firstCell": "Cell 1 (T with 4) spans 0-9 degrees, just clockwise of 12 o'clock. The boundary between cell 40 (omega) and cell 1 (T) is at the top, directly above the top vertex of the outer heptagon.",
+    "order": "Cells are numbered clockwise.",
+    "construction": "Michael: 'Divide the owtward circle into 40 aequall partes: whose greatest numbers are fowre.' Dee divided it first into 4, then each quarter into 10. The 40 'white creatures' who showed the letters stood 'five togither ... in eight Cumpanyes; each, of five'."
+   },
+   "cells": [
+    {
+     "index": 1,
+     "startDeg": 0,
+     "endDeg": 9,
+     "centerDeg": 4.5,
+     "letter": "T",
+     "number": 4,
+     "numberPosition": "above"
+    },
+    {
+     "index": 2,
+     "startDeg": 9,
+     "endDeg": 18,
+     "centerDeg": 13.5,
+     "letter": "G",
+     "number": 9,
+     "numberPosition": "above",
+     "note": "Number 9 dictated ('the Number of his name ... 9'); its above/below position is not stated in the text. Drawn above in Peterson's redrawing; 'above' is also required for the name Galas to come out."
+    },
+    {
+     "index": 3,
+     "startDeg": 18,
+     "endDeg": 27,
+     "centerDeg": 22.5,
+     "letter": "n",
+     "number": 7,
+     "numberPosition": "above"
+    },
+    {
+     "index": 4,
+     "startDeg": 27,
+     "endDeg": 36,
+     "centerDeg": 31.5,
+     "letter": "t",
+     "number": 9,
+     "numberPosition": "below"
+    },
+    {
+     "index": 5,
+     "startDeg": 36,
+     "endDeg": 45,
+     "centerDeg": 40.5,
+     "letter": "h",
+     "number": 22,
+     "numberPosition": "above"
+    },
+    {
+     "index": 6,
+     "startDeg": 45,
+     "endDeg": 54,
+     "centerDeg": 49.5,
+     "letter": "n",
+     "number": null,
+     "numberPosition": null
+    },
+    {
+     "index": 7,
+     "startDeg": 54,
+     "endDeg": 63,
+     "centerDeg": 58.5,
+     "letter": "m",
+     "number": 6,
+     "numberPosition": "above"
+    },
+    {
+     "index": 8,
+     "startDeg": 63,
+     "endDeg": 72,
+     "centerDeg": 67.5,
+     "letter": "o",
+     "number": 22,
+     "numberPosition": "above"
+    },
+    {
+     "index": 9,
+     "startDeg": 72,
+     "endDeg": 81,
+     "centerDeg": 76.5,
+     "letter": "a",
+     "number": 20,
+     "numberPosition": "above",
+     "note": "Dictated as 22; Dee's margin note says Uriel later corrected it 'to be 20' (Holden transcription)."
+    },
+    {
+     "index": 10,
+     "startDeg": 81,
+     "endDeg": 90,
+     "centerDeg": 85.5,
+     "letter": "n",
+     "number": 14,
+     "numberPosition": "above"
+    },
+    {
+     "index": 11,
+     "startDeg": 90,
+     "endDeg": 99,
+     "centerDeg": 94.5,
+     "letter": "a",
+     "number": 6,
+     "numberPosition": "above"
+    },
+    {
+     "index": 12,
+     "startDeg": 99,
+     "endDeg": 108,
+     "centerDeg": 103.5,
+     "letter": "h",
+     "number": null,
+     "numberPosition": null
+    },
+    {
+     "index": 13,
+     "startDeg": 108,
+     "endDeg": 117,
+     "centerDeg": 112.5,
+     "letter": "o",
+     "number": 18,
+     "numberPosition": "above",
+     "note": "Text: 'A little o with 18 over it'. Peterson's redrawing: 18 above. (Jones's table writes 'o 18', which looks like 'below' in his notation, but his own derivation of Ymon treats it as above.)"
+    },
+    {
+     "index": 14,
+     "startDeg": 117,
+     "endDeg": 126,
+     "centerDeg": 121.5,
+     "letter": "l",
+     "number": 26,
+     "numberPosition": "above"
+    },
+    {
+     "index": 15,
+     "startDeg": 126,
+     "endDeg": 135,
+     "centerDeg": 130.5,
+     "letter": "l",
+     "number": 30,
+     "numberPosition": "below"
+    },
+    {
+     "index": 16,
+     "startDeg": 135,
+     "endDeg": 144,
+     "centerDeg": 139.5,
+     "letter": "n",
+     "number": null,
+     "numberPosition": null
+    },
+    {
+     "index": 17,
+     "startDeg": 144,
+     "endDeg": 153,
+     "centerDeg": 148.5,
+     "letter": "l",
+     "number": 8,
+     "numberPosition": "below"
+    },
+    {
+     "index": 18,
+     "startDeg": 153,
+     "endDeg": 162,
+     "centerDeg": 157.5,
+     "letter": "G",
+     "number": 7,
+     "numberPosition": "above"
+    },
+    {
+     "index": 19,
+     "startDeg": 162,
+     "endDeg": 171,
+     "centerDeg": 166.5,
+     "letter": "r",
+     "number": 13,
+     "numberPosition": "above"
+    },
+    {
+     "index": 20,
+     "startDeg": 171,
+     "endDeg": 180,
+     "centerDeg": 175.5,
+     "letter": "H",
+     "number": 12,
+     "numberPosition": "below",
+     "note": "Dictated as 'great H ... under it 22'. The finished seal has 12 below. The same evening Uriel, through Kelley (then called Talbot), corrected the numbers 'for quantity and some for place over or under'. Horlωn only comes out with 12 below."
+    },
+    {
+     "index": 21,
+     "startDeg": 180,
+     "endDeg": 189,
+     "centerDeg": 184.5,
+     "letter": "og",
+     "number": null,
+     "numberPosition": null,
+     "note_glyph": "two letters o and g side by side in one cell (written 'og' in Peterson's drawing)",
+     "note": "'o' and 'g' shown side by side on a heart, 'as in scotcheons of armes ... per pale'. No number ('Numerus illius est sine numero'). Michael: 'Whereas thou hast go, it is to be read og.'"
+    },
+    {
+     "index": 22,
+     "startDeg": 189,
+     "endDeg": 198,
+     "centerDeg": 193.5,
+     "letter": "y",
+     "number": 14,
+     "numberPosition": "below",
+     "note": "Dictated 'y ... 15 under it'. Peterson's redrawing of the seal shows 14 below. Jones also says the Spirit Action value (y15) differs from Dee's drawn seal. Not used in the seven names. Original manuscript too low-resolution here to settle it.",
+     "unverified": true
+    },
+    {
+     "index": 23,
+     "startDeg": 198,
+     "endDeg": 207,
+     "centerDeg": 202.5,
+     "letter": "t",
+     "number": 11,
+     "numberPosition": "below",
+     "note": "Dee was told to put t 'in the second place' and y 'in the former place', so y comes before t."
+    },
+    {
+     "index": 24,
+     "startDeg": 207,
+     "endDeg": 216,
+     "centerDeg": 211.5,
+     "letter": "o",
+     "number": 8,
+     "numberPosition": "below"
+    },
+    {
+     "index": 25,
+     "startDeg": 216,
+     "endDeg": 225,
+     "centerDeg": 220.5,
+     "letter": "e",
+     "number": 21,
+     "numberPosition": "below"
+    },
+    {
+     "index": 26,
+     "startDeg": 225,
+     "endDeg": 234,
+     "centerDeg": 229.5,
+     "letter": "b",
+     "number": 10,
+     "numberPosition": "above"
+    },
+    {
+     "index": 27,
+     "startDeg": 234,
+     "endDeg": 243,
+     "centerDeg": 238.5,
+     "letter": "A",
+     "number": 11,
+     "numberPosition": "above"
+    },
+    {
+     "index": 28,
+     "startDeg": 243,
+     "endDeg": 252,
+     "centerDeg": 247.5,
+     "letter": "I",
+     "number": 15,
+     "numberPosition": "above"
+    },
+    {
+     "index": 29,
+     "startDeg": 252,
+     "endDeg": 261,
+     "centerDeg": 256.5,
+     "letter": "a",
+     "number": 8,
+     "numberPosition": "above"
+    },
+    {
+     "index": 30,
+     "startDeg": 261,
+     "endDeg": 270,
+     "centerDeg": 265.5,
+     "letter": "r",
+     "number": 16,
+     "numberPosition": "below",
+     "note": "Dictated '16 over it'. The finished seal has 16 below, after Uriel's correction of over/under. Horlωn needs 'below'."
+    },
+    {
+     "index": 31,
+     "startDeg": 270,
+     "endDeg": 279,
+     "centerDeg": 274.5,
+     "letter": "n",
+     "number": null,
+     "numberPosition": null
+    },
+    {
+     "index": 32,
+     "startDeg": 279,
+     "endDeg": 288,
+     "centerDeg": 283.5,
+     "letter": "A",
+     "number": 6,
+     "numberPosition": "above",
+     "note": "First shown as 'A' with three 6s 'set in triangle'. Michael later 'put out the two lowermost', leaving 6."
+    },
+    {
+     "index": 33,
+     "startDeg": 288,
+     "endDeg": 297,
+     "centerDeg": 292.5,
+     "letter": "O",
+     "number": 10,
+     "numberPosition": "below"
+    },
+    {
+     "index": 34,
+     "startDeg": 297,
+     "endDeg": 306,
+     "centerDeg": 301.5,
+     "letter": "G",
+     "number": 5,
+     "numberPosition": "above"
+    },
+    {
+     "index": 35,
+     "startDeg": 306,
+     "endDeg": 315,
+     "centerDeg": 310.5,
+     "letter": "h",
+     "number": 14,
+     "numberPosition": "below"
+    },
+    {
+     "index": 36,
+     "startDeg": 315,
+     "endDeg": 324,
+     "centerDeg": 319.5,
+     "letter": "o",
+     "number": 17,
+     "numberPosition": "below",
+     "note": "Holden reads 'o, and 17 under it' (the Peterson OCR misreads it as 'V')."
+    },
+    {
+     "index": 37,
+     "startDeg": 324,
+     "endDeg": 333,
+     "centerDeg": 328.5,
+     "letter": "s",
+     "number": null,
+     "numberPosition": null,
+     "note": "'s' with no separate number. Dee: 'I understand it to be a letter, and the number 5 also.' Michael: 'So it is.'"
+    },
+    {
+     "index": 38,
+     "startDeg": 333,
+     "endDeg": 342,
+     "centerDeg": 337.5,
+     "letter": "a",
+     "number": 5,
+     "numberPosition": "below",
+     "note": "Two figures with 'a / 5 under' were described. Dee's margin note says Uriel corrected this place, so the second replaces the first."
+    },
+    {
+     "index": 39,
+     "startDeg": 342,
+     "endDeg": 351,
+     "centerDeg": 346.5,
+     "letter": "a",
+     "number": 24,
+     "numberPosition": "below"
+    },
+    {
+     "index": 40,
+     "startDeg": 351,
+     "endDeg": 360,
+     "centerDeg": 355.5,
+     "letter": "ω",
+     "number": 6,
+     "numberPosition": "above",
+     "note": "One of the two places Michael called still 'hidden' (Hij duo caelati sunt adhuc). It was revealed later as a Greek ω on a trumpet. The 6 above comes from Peterson's redrawing. The text does not clearly state ω's number, but Horlωn needs ω with 6 above.",
+     "unverified": true
+    }
+   ],
+   "numberSum": 440,
+   "rule_for_reading": {
+    "source": "Michael, Liber Secundus (Peterson ed.; Holden transcription)",
+    "rules": [
+     "Begin at a capital letter. Capitals mark where names begin.",
+     "If the number is ABOVE the letter, count that many places toward the right hand (clockwise), not counting the current cell, and take the letter there.",
+     "If the number is BELOW the letter, count that many places toward the left hand (counter-clockwise).",
+     "Stop at a letter with no number. That letter ends the name.",
+     "When two a's come together in the middle of a name, leave out the first ('left with his inward power'). This does not apply at the start of a name, so Aaoth keeps both.",
+     "Read the cell 'go' as 'og'."
+    ],
+    "michaelOnContent": "'The Circumference ... conteyneth 7 names: 7 names, conteyn 7 Angels: Every letter, conteyneth 7 Angels: The numbers are applyed to the letters.'",
+    "unusedCells": "No path among the seven names lands on cells 7, 13, 19, 22, 26, 31 and 36 (computed here; Jones notes the same)."
+   },
+   "sevenNames": {
+    "derivations": [
+     {
+      "startSegment": 1,
+      "rawLetters": "ThAaOth",
+      "path": [
+       1,
+       5,
+       27,
+       38,
+       33,
+       23,
+       12
+      ],
+      "name": "Thaoth"
+     },
+     {
+      "startSegment": 2,
+      "rawLetters": "Galaas",
+      "path": [
+       2,
+       11,
+       17,
+       9,
+       29,
+       37
+      ],
+      "name": "Galas"
+     },
+     {
+      "startSegment": 18,
+      "rawLetters": "Gethog",
+      "path": [
+       18,
+       25,
+       4,
+       35,
+       21
+      ],
+      "name": "Gethog"
+     },
+     {
+      "startSegment": 20,
+      "rawLetters": "Horlωn",
+      "path": [
+       20,
+       8,
+       30,
+       14,
+       40,
+       6
+      ],
+      "name": "Horlωn"
+     },
+     {
+      "startSegment": 28,
+      "rawLetters": "Innon",
+      "path": [
+       28,
+       3,
+       10,
+       24,
+       16
+      ],
+      "name": "Innon"
+     },
+     {
+      "startSegment": 32,
+      "rawLetters": "AaOth",
+      "path": [
+       32,
+       38,
+       33,
+       23,
+       12
+      ],
+      "name": "Aaoth"
+     },
+     {
+      "startSegment": 34,
+      "rawLetters": "Galethog",
+      "path": [
+       34,
+       39,
+       15,
+       25,
+       4,
+       35,
+       21
+      ],
+      "name": "Galethog"
+     }
+    ],
+    "orderAsFirstWritten": [
+     "Thaaoth (corrected to Thaoth)",
+     "Galas",
+     "Gethog",
+     "Horlwn (Horl-omega-n)",
+     "Innon",
+     "Aaoth",
+     "Galethog"
+    ],
+    "orderAsCorrectedByMichael_20Mar1582": [
+     "Galas",
+     "Gethog",
+     "Thaoth",
+     "Horlwn",
+     "Innon",
+     "Aaoth",
+     "Galethog"
+    ],
+    "selfCheck": "All seven paths were recomputed from the 40 cells above. Each lands exactly on the name Dee records.",
+    "note": "Dee first wrote 'Galetsog' after miscounting. Michael said all the names were right but out of order. Holden and Jones spell Horlwn with a Greek omega; Peterson's OCR garbles it as 'Horlcon'."
+   },
+   "otherPossibleNames": {
+    "unverified": true,
+    "note": "Jones (hermetic.com) derives 'Ymon' (starting from y with the dictated 15) and 'AborA' (from the A666 cell) out of the unused cells. Dee records neither name. This is modern analysis."
+   }
+  },
+  {
+   "id": "L2_galethogSigils",
+   "name": "Seven sigils in the circle-segments (GALETHOG)",
+   "date": "20 March 1582",
+   "geometry": {
+    "shape": "7 circular segments between the sides of the outer heptagon and the inner circle of the ring. Segment k is centred at (k+0.5) x 51.43 degrees.",
+    "readingOrder": "Counter-clockwise, starting with the upper-left segment (334.3 deg). Michael: 'Work from the right, toward the left, in the first angle next unto the circumference.'",
+    "crosses": "Dee: 'He willed me, at each corner of these Segments of circles, to make little Crosses.'"
+   },
+   "cells": [
+    {
+     "order": 1,
+     "letter": "G",
+     "number": 5,
+     "glyphDescription": "G-shaped glyph with a cross",
+     "centerDeg": 334.29,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 34
+    },
+    {
+     "order": 2,
+     "letter": "a",
+     "number": 24,
+     "glyphDescription": "capital A joined to a cross ('A+')",
+     "centerDeg": 282.86,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 39
+    },
+    {
+     "order": 3,
+     "letter": "l",
+     "number": 30,
+     "glyphDescription": "cross + o + L ligature",
+     "centerDeg": 231.43,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 15
+    },
+    {
+     "order": 4,
+     "letter": "e",
+     "number": 21,
+     "glyphDescription": "crossed epsilon-like glyph, looks like 'XE'",
+     "centerDeg": 180.0,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 25
+    },
+    {
+     "order": 5,
+     "letter": "t",
+     "number": 9,
+     "glyphDescription": "T with a cross on top",
+     "centerDeg": 128.57,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 4
+    },
+    {
+     "order": 6,
+     "letter": "h",
+     "number": 14,
+     "glyphDescription": "H with a cross (H-bar-like)",
+     "centerDeg": 77.14,
+     "numberPlacement": "to the right of the glyph (Michael: 'Make the number of 5 on the right hand, (that is, before it)')",
+     "ringCellItRefersTo": 35
+    },
+    {
+     "order": 7,
+     "letter": "og",
+     "number": null,
+     "glyphDescription": "o and g ligature inside a circle with a cross on top ('this compownd letter, with the circle and cross')",
+     "centerDeg": 25.71,
+     "numberPlacement": null,
+     "ringCellItRefersTo": 21
+    }
+   ],
+   "reading": "GALETHOG. Dee: 'I finde it to be GALETHOG.' Uriel: 'It is so.' The numbers are the ones attached to the same letters in the ring (Uriel: 'Thow must refer thy numbers therin conteyned, to the upper circle'). G-a-l-e-t-h-og follows the Galethog path through the ring: cells 34, 39, 15, 25, 4, 35, 21.",
+   "glyphShapes_unverified": true,
+   "glyphNote": "The glyph descriptions come from Peterson's redrawing and a low-resolution MS scan. Copy the exact shapes from an image."
+  },
+  {
+   "id": "L3_outerHeptagonBand",
+   "name": "Outer heptagon: 7 x 7 letters (the seven angels Zaphkiel ... Gabriel)",
+   "date": "20 March 1582",
+   "geometry": {
+    "shape": "Regular heptagon inscribed in the inner circle of the ring, with ONE VERTEX STRAIGHT UP (vertex k at k x 51.43 deg). It is drawn as a band, and each side is split into 7 cells.",
+    "placement": "Row k of the table goes on side k, written clockwise from vertex k to vertex k+1. Side 1 runs from the top vertex down to the right. Checked against Peterson's redrawing."
+   },
+   "table7x7": [
+    "ZllRHia",
+    "aZCaacb",
+    "paupnhr",
+    "hdmhiai",
+    "kkaaeee",
+    "iieelll",
+    "eellMG+"
+   ],
+   "sides": [
+    {
+     "side": 1,
+     "fromVertexDeg": 0.0,
+     "toVertexDeg": 51.43,
+     "midDeg": 25.71,
+     "letters": [
+      "Z",
+      "l",
+      "l",
+      "R",
+      "H",
+      "i",
+      "a"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 2,
+     "fromVertexDeg": 51.43,
+     "toVertexDeg": 102.86,
+     "midDeg": 77.14,
+     "letters": [
+      "a",
+      "Z",
+      "C",
+      "a",
+      "a",
+      "c",
+      "b"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 3,
+     "fromVertexDeg": 102.86,
+     "toVertexDeg": 154.29,
+     "midDeg": 128.57,
+     "letters": [
+      "p",
+      "a",
+      "u",
+      "p",
+      "n",
+      "h",
+      "r"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 4,
+     "fromVertexDeg": 154.29,
+     "toVertexDeg": 205.71,
+     "midDeg": 180.0,
+     "letters": [
+      "h",
+      "d",
+      "m",
+      "h",
+      "i",
+      "a",
+      "i"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 5,
+     "fromVertexDeg": 205.71,
+     "toVertexDeg": 257.14,
+     "midDeg": 231.43,
+     "letters": [
+      "k",
+      "k",
+      "a",
+      "a",
+      "e",
+      "e",
+      "e"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 6,
+     "fromVertexDeg": 257.14,
+     "toVertexDeg": 308.57,
+     "midDeg": 282.86,
+     "letters": [
+      "i",
+      "i",
+      "e",
+      "e",
+      "l",
+      "l",
+      "l"
+     ],
+     "writtenClockwise": true
+    },
+    {
+     "side": 7,
+     "fromVertexDeg": 308.57,
+     "toVertexDeg": 360.0,
+     "midDeg": 334.29,
+     "letters": [
+      "e",
+      "e",
+      "l",
+      "l",
+      "M",
+      "G",
+      "+"
+     ],
+     "writtenClockwise": true
+    }
+   ],
+   "howReceived": "Michael took birds out of 7 golden baskets hung around a canopy. Each bird showed 7 letters: (1) a white pigeon-like bird: Z l l R H i a; (2) a swan-sized white bird: a Z C a a c b; (3) a green peacock-like bird: p a u p n h r; (4) a red griffin-like bird with brass-like scales: h d m h i a i; (5) a golden eagle with 12 squares (+1 on top) on its breast; (6) a phoenix/pelican with a quadrangle; (7) a many-winged bird with a tablet. Uriel then had Dee write the letters 'by 7' and 'reade downward'. Rows 5-7 come only from that table; the visions of birds 5-7 do not spell out the letters.",
+   "howNamesAreRead": "Read DOWN the columns one after another (column 1 top to bottom, then column 2, and so on). The 49 letters run ZAPHKIEL ZADKIEL CUMAEL RAPHAEL HANIEL MICHAEL GABRIEL and end with a cross (+). Dee: 'I rede thus, Zaphkiel, Zadkiel, Cumael, Raphael, Haniel, Michael, Gabriel.' Uriel: 'Thow hast red right.' Checked by computation.",
+   "names": [
+    "Zaphkiel",
+    "Zadkiel",
+    "Cumael",
+    "Raphael",
+    "Haniel",
+    "Michael",
+    "Gabriel"
+   ],
+   "uriel": "'Euery letter here, conteyneth or comprehendeth the number of 72 Vertues.'"
+  },
+  {
+   "id": "L4_namesOfGod",
+   "name": "Seven names of God (rows of the second 7 x 7 table)",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Each name sits in the triangle between one side of the outer heptagon and the two heptagram strips that cut across it. It is written along that side, clockwise, letter tops outward.",
+    "placement": "Row 1 (SAAI...) on the side centred at 25.7 deg (upper right), then clockwise: BTZKASE 77.1, HEIDENE 128.6, DEIMO30A 180 (bottom, upside-down), IMEGCBE 231.4, ILAOIVN 282.9, IHRLAA 334.3. Small numbers are drawn beside the letters as in the table."
+   },
+   "table7x7": [
+    [
+     "S",
+     "A",
+     "A",
+     "I(21/8.)",
+     "E",
+     "M",
+     "E(8.)"
+    ],
+    [
+     "B",
+     "T",
+     "Z",
+     "K",
+     "A",
+     "S",
+     "E(30.)"
+    ],
+    [
+     "H",
+     "E",
+     "I",
+     "D",
+     "E",
+     "N",
+     "E"
+    ],
+    [
+     "D",
+     "E",
+     "I",
+     "M",
+     "O",
+     "30.",
+     "A"
+    ],
+    [
+     "I(26)",
+     "M",
+     "E",
+     "G",
+     "C",
+     "B",
+     "E"
+    ],
+    [
+     "I",
+     "L",
+     "A",
+     "O",
+     "I(21/8.)",
+     "V",
+     "N"
+    ],
+    [
+     "I",
+     "H",
+     "R",
+     "L",
+     "A",
+     "A",
+     "21/8."
+    ]
+   ],
+   "cellNotation": "'X(n)' = letter X with number n beside it. 'a/b' = number a written over number b. A trailing '.' is Dee's 'prick' under the number. Uriel/Dee: numbers with a prick stand for letters. '8.' = l (ring cell 17 has l with 8 below). '30.' = l (ring cell 15 has l with 30 below). '21' = e (ring cell 25). So '21/8.' = 'el', 'compownded as if it were one letter'.",
+   "names": [
+    {
+     "row": 1,
+     "cells": [
+      "S",
+      "A",
+      "A",
+      "I(21/8.)",
+      "E",
+      "M",
+      "E(8.)"
+     ],
+     "asDrawn": "SAAI(21/8)EME(8)",
+     "latinTagBesideRow": "Vivit in caelis",
+     "triangleMidDeg": 25.71
+    },
+    {
+     "row": 2,
+     "cells": [
+      "B",
+      "T",
+      "Z",
+      "K",
+      "A",
+      "S",
+      "E(30.)"
+     ],
+     "asDrawn": "BTZKASE(30)",
+     "latinTagBesideRow": "Deus noster",
+     "triangleMidDeg": 77.14
+    },
+    {
+     "row": 3,
+     "cells": [
+      "H",
+      "E",
+      "I",
+      "D",
+      "E",
+      "N",
+      "E"
+     ],
+     "asDrawn": "HEIDENE",
+     "latinTagBesideRow": "Dux noster",
+     "triangleMidDeg": 128.57
+    },
+    {
+     "row": 4,
+     "cells": [
+      "D",
+      "E",
+      "I",
+      "M",
+      "O",
+      "30.",
+      "A"
+     ],
+     "asDrawn": "DEIMO(30)A",
+     "latinTagBesideRow": "Hic est",
+     "triangleMidDeg": 180.0
+    },
+    {
+     "row": 5,
+     "cells": [
+      "I(26)",
+      "M",
+      "E",
+      "G",
+      "C",
+      "B",
+      "E"
+     ],
+     "asDrawn": "I(26)MEGCBE",
+     "latinTagBesideRow": "Lux in aeternum",
+     "triangleMidDeg": 231.43
+    },
+    {
+     "row": 6,
+     "cells": [
+      "I",
+      "L",
+      "A",
+      "O",
+      "I(21/8.)",
+      "V",
+      "N"
+     ],
+     "asDrawn": "ILAOI(21/8)VN",
+     "latinTagBesideRow": "Finis est",
+     "triangleMidDeg": 282.86
+    },
+    {
+     "row": 7,
+     "cells": [
+      "I",
+      "H",
+      "R",
+      "L",
+      "A",
+      "A",
+      "21/8."
+     ],
+     "asDrawn": "IHRLAA(21/8)",
+     "latinTagBesideRow": "Vera est haec tabula",
+     "triangleMidDeg": 334.29
+    }
+   ],
+   "howReceived": "The trumpeter angel Phanael blew, and 7 companies of 7 fiery pillars came from 7 parts of the horizon. Michael opened the pillar heads, and letters (and a few numbers) appeared in them. Each company gave one row, and Dee was told to 'Write the Name down in the Tables'.",
+   "howRead": "Uriel: 'Those 7 names, which procede from the left hand to the right, are the Names of God, not known to the Angels: neyther can be spoken or red of man.' So each ROW read left to right is one name. No pronunciation is given.",
+   "urielOnNumbers": "'The 30 by E, in the second place, in the upper right corner, serveth not in the consideration of the first Dowghters, but for an other purpose.' 'The 26 by I, serveth for an other purpose.' 'The Names in the great Seale must follow the Orthographie of this Table.'",
+   "note": "Many popular redrawings print row 1 as 'SAAIEME' and leave out the small numbers. Dee's table and drawing include them."
+  },
+  {
+   "id": "L5_heptagram",
+   "name": "Heptagram: Daughters of Light (in the points) and Sons of Light (in the strips)",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Seven-pointed star {7/2}: each strip joins outer-heptagon vertex k to vertex k+2, so the star's points are at the outer heptagon's vertices (top point at 0 deg). Strips are drawn as double-lined bands.",
+    "daughtersPlacement": "One name in each point (the small triangle at each vertex), clockwise from the top: El 0, Me 51.4, Ese 102.9, Iana 154.3, Akele 205.7, Azdobn 257.1, Stimcul 308.6.",
+    "sonsPlacement": "One name along each strip. In the order I, Ih, Ilr, Dmal, Heeoa, Beigia, Stimcul they follow the star's line as one continuous path, two strips (102.9 deg) on each time. I = the horizontal top strip; Ih = the right, near-vertical strip; Ilr = the lower-left strip; Dmal = the upper-left diagonal; Heeoa = the upper-right diagonal; Beigia = the lower strip; Stimcul = the left, near-vertical strip. Read from Peterson's redrawing; it matches the angle data.",
+    "crosses_unverified": "Peterson's redrawing has many small crosses here (e.g. '+ + + I + + +' on the top strip, a cross above 'El'). The text does not give their number or exact positions."
+   },
+   "daughtersOfLight": [
+    {
+     "n": 1,
+     "name": "El",
+     "pointDeg": 0.0,
+     "tableCells": [
+      "E(8.)"
+     ]
+    },
+    {
+     "n": 2,
+     "name": "Me",
+     "pointDeg": 51.43,
+     "tableCells": [
+      "M",
+      "E(30.)"
+     ]
+    },
+    {
+     "n": 3,
+     "name": "Ese",
+     "pointDeg": 102.86,
+     "tableCells": [
+      "E",
+      "S",
+      "E"
+     ]
+    },
+    {
+     "n": 4,
+     "name": "Iana",
+     "pointDeg": 154.29,
+     "tableCells": [
+      "I(21/8.)",
+      "A",
+      "N",
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "name": "Akele",
+     "pointDeg": 205.71,
+     "tableCells": [
+      "A",
+      "K",
+      "E",
+      "30.",
+      "E"
+     ]
+    },
+    {
+     "n": 6,
+     "name": "Azdobn",
+     "pointDeg": 257.14,
+     "tableCells": [
+      "A",
+      "Z",
+      "D",
+      "O",
+      "B",
+      "N"
+     ]
+    },
+    {
+     "n": 7,
+     "name": "Stimcul",
+     "pointDeg": 308.57,
+     "tableCells": [
+      "S",
+      "T",
+      "I",
+      "M",
+      "C",
+      "V",
+      "21/8."
+     ]
+    }
+   ],
+   "sonsOfLight": [
+    {
+     "n": 1,
+     "name": "I",
+     "stripMidDeg": 0.0,
+     "stripJoinsOuterVerticesAtDeg": [
+      308.57,
+      51.43
+     ],
+     "tableCells": [
+      "I"
+     ]
+    },
+    {
+     "n": 2,
+     "name": "Ih",
+     "stripMidDeg": 102.86,
+     "stripJoinsOuterVerticesAtDeg": [
+      51.43,
+      154.29
+     ],
+     "tableCells": [
+      "I",
+      "H"
+     ]
+    },
+    {
+     "n": 3,
+     "name": "Ilr",
+     "stripMidDeg": 205.71,
+     "stripJoinsOuterVerticesAtDeg": [
+      154.29,
+      257.14
+     ],
+     "tableCells": [
+      "I(26)",
+      "L",
+      "R"
+     ]
+    },
+    {
+     "n": 4,
+     "name": "Dmal",
+     "stripMidDeg": 308.57,
+     "stripJoinsOuterVerticesAtDeg": [
+      257.14,
+      0.0
+     ],
+     "tableCells": [
+      "D",
+      "M",
+      "A",
+      "L"
+     ]
+    },
+    {
+     "n": 5,
+     "name": "Heeoa",
+     "stripMidDeg": 51.43,
+     "stripJoinsOuterVerticesAtDeg": [
+      0.0,
+      102.86
+     ],
+     "tableCells": [
+      "H",
+      "E",
+      "E",
+      "O",
+      "A"
+     ]
+    },
+    {
+     "n": 6,
+     "name": "Beigia",
+     "stripMidDeg": 154.29,
+     "stripJoinsOuterVerticesAtDeg": [
+      102.86,
+      205.71
+     ],
+     "tableCells": [
+      "B",
+      "E",
+      "I",
+      "G",
+      "I(21/8.)",
+      "A"
+     ]
+    },
+    {
+     "n": 7,
+     "name": "Stimcul",
+     "stripMidDeg": 257.14,
+     "stripJoinsOuterVerticesAtDeg": [
+      205.71,
+      308.57
+     ],
+     "tableCells": [
+      "S",
+      "T",
+      "I",
+      "M",
+      "C",
+      "V",
+      "21/8."
+     ]
+    }
+   ],
+   "howReceived": "Michael called 'Adeste Filiae Bonitatis'. Seven young women in green came in, each with a name on a tablet: El, Me, Ese, Iana, Akele, Azdobn, Stimcul. Then 'Venite Filii Lucis': seven young men in white, each holding a ball of one of the seven metals (gold, silver, copper, tin, iron, quicksilver, lead) and wearing a tablet: I, Ih, Ilr, Dmal, Heeoa, Beigia, Stimcul.",
+   "derivationFromTable2": "Uriel: 'The Dowghters procede from the angle on the right hand, cleaving the myddle ... The Sonnes from the left hand to the right to the middle: so proceding where theyr number endeth in one Centre.' Daughter k = the diagonal starting in row 1, column 8-k, running down-right. The first daughter, 'El', is E with 8. in the top-right corner (8 -> l through ring cell 17), the example Uriel walked Dee through. Son k = the diagonal starting in column 1, row 8-k, running down-right. Both sets end on the main diagonal S T I M C V (l) = Stimcul, which they share. Recomputed here: every name matches."
+  },
+  {
+   "id": "L6_daughtersOfDaughters",
+   "name": "Heptagon band: Daughters of the Daughters of Light",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Heptagon inside the heptagram with a FLAT SIDE ON TOP (turned 25.7 deg relative to the outer heptagon; side k centred at k x 51.43 deg). Drawn as a band. One name per side, clockwise from the top side.",
+    "crosses_unverified": "In Peterson's redrawing each name is padded with small crosses, e.g. '+++S++++'. The text does not give the number per side."
+   },
+   "names": [
+    {
+     "n": 1,
+     "name": "S",
+     "sideMidDeg": 0.0
+    },
+    {
+     "n": 2,
+     "name": "Ab",
+     "sideMidDeg": 51.43
+    },
+    {
+     "n": 3,
+     "name": "Ath",
+     "sideMidDeg": 102.86
+    },
+    {
+     "n": 4,
+     "name": "Ized",
+     "sideMidDeg": 154.29
+    },
+    {
+     "n": 5,
+     "name": "Ekiei",
+     "sideMidDeg": 205.71
+    },
+    {
+     "n": 6,
+     "name": "Madimi",
+     "sideMidDeg": 257.14
+    },
+    {
+     "n": 7,
+     "name": "Esemeli",
+     "sideMidDeg": 308.57
+    }
+   ],
+   "howReceived": "'Filiae Filiarum Lucis, venite': seven little girls in white with square, ivory-like tablets showing S, Ab, Ath, Ized, Ekiei, Madimi, Esemeli. Dee notes they spoke 'as though they had an impediment in theyr tung'.",
+   "derivationFromTable2": "Anti-diagonals from the TOP-LEFT corner, each read from top-right to bottom-left: S | A B | A T H | I Z E D | E K I E I | M A D I M I | E S E M E L I. Recomputed: every name matches."
+  },
+  {
+   "id": "L7_sonsOfSons",
+   "name": "Heptagon band: Sons of the Sons of Light",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Second heptagon band just inside L6, same orientation (flat top). One name per side, clockwise from the top side.",
+    "note": "The first name, El, is drawn as E with the E-L ligature (Dee: the first boy's tablet had 'two letters in one ... EL').",
+    "crosses_unverified": "Padding crosses as in L6."
+   },
+   "names": [
+    {
+     "n": 1,
+     "name": "El",
+     "sideMidDeg": 0.0
+    },
+    {
+     "n": 2,
+     "name": "An",
+     "sideMidDeg": 51.43
+    },
+    {
+     "n": 3,
+     "name": "Ave",
+     "sideMidDeg": 102.86
+    },
+    {
+     "n": 4,
+     "name": "Liba",
+     "sideMidDeg": 154.29
+    },
+    {
+     "n": 5,
+     "name": "Rocle",
+     "sideMidDeg": 205.71
+    },
+    {
+     "n": 6,
+     "name": "Hagonel",
+     "sideMidDeg": 257.14
+    },
+    {
+     "n": 7,
+     "name": "Ilemese",
+     "sideMidDeg": 308.57
+    }
+   ],
+   "howReceived": "'Venite ad vocem meam': seven little boys in purple with three-cornered green tablets: El (two letters in one), An, Ave, Liba, Rocle, Hagonel, Ilemese.",
+   "derivationFromTable2": "Anti-diagonals from the BOTTOM-RIGHT corner, each read from bottom-left to top-right: 21/8.(el) | A N | A V E | L I B A | R O C 30.(l) E | H A G O N E(30. = l) | I L E M E S E. Recomputed: every name matches. Hagonel's final L comes from the '30.' beside E in row 2, the 'other purpose' Uriel mentioned."
+  },
+  {
+   "id": "L8_zabathiel",
+   "name": "Innermost heptagon: ZABATHIEL",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Innermost heptagon, flat top like L6/L7. One letter per side, clockwise, starting with Z on the top side.",
+    "letters": [
+     {
+      "letter": "Z",
+      "sideMidDeg": 0.0
+     },
+     {
+      "letter": "A",
+      "sideMidDeg": 51.43
+     },
+     {
+      "letter": "B",
+      "sideMidDeg": 102.86
+     },
+     {
+      "letter": "A",
+      "sideMidDeg": 154.29
+     },
+     {
+      "letter": "T",
+      "sideMidDeg": 205.71
+     },
+     {
+      "letter": "H",
+      "sideMidDeg": 257.14
+     },
+     {
+      "letter": "I(21/8)",
+      "sideMidDeg": 308.57
+     }
+    ],
+    "instruction": "Uriel: 'this name must be distributed in his letters into 7 sides of that innermost Heptagonum ... You must make for IEL (in this name onely) I with the 21/8 annexed. So have you iust 7 places.' In Peterson's redrawing each letter sits just inside its side, a little counter-clockwise of the exact midpoint (Z at about 350 deg)."
+   },
+   "angelsOfTable2": [
+    "Zabathiel",
+    "Zedekieil",
+    "Madimiel",
+    "Semeliel",
+    "Nogahel",
+    "Corabiel",
+    "Levanael"
+   ],
+   "howRead": "Uriel spelled out the path for the first name: 'beginning from the left uppermost corner: taking the corner letter first, and then that on the right hand above: and than that under the first, and than the third from the first, in the upper row: and then cornerwise down toward the left hand: and then to the fowrth letter from the first in the upper row: where there is I with 21/8, which maketh el.' So the whole table is read one anti-diagonal at a time, each from top-right to bottom-left, as ONE stream of 49 cells: S A B A T H I(el) | Z E D E K I E I(26 = l) | M A D I M I E(8. = l) | S E M E L I E(30. = l) | N O G A H E 30.(l) | C O R A B I(el) | L E V A N A 21/8.(el). Every cell is used exactly once.",
+   "derivation_unverified": true,
+   "derivationNote": "The text gives the path only for Zabathiel. For the other six names Dee just writes 'I finde next ...' and the angel confirms. The stream above is a reconstruction (computed here) that reproduces all seven names exactly. It reads 26 as l through ring cell 14 (l with 26 above), which fits Uriel's remark that the 26 'serveth for an other purpose'.",
+   "discrepancy": "The table's corner cell is S, but Uriel calls the angel 'Zabathiel' and the seal is drawn with Z. Uriel also said: 'Make the E and L of Zabathiel, in one letter compownded.'",
+   "uriel": "'These Angels are the angells of the 7 Circles of Heven, gouerning the lightes of the 7 Circles.' Dee's margin notes that the name Corabiel appears in the Elementa Magica attributed to Peter of Abano."
+  },
+  {
+   "id": "L9_pentagram",
+   "name": "Pentagram with five angel names",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "Five-pointed star inside the innermost heptagon, ONE POINT STRAIGHT UP. Drawn with double (interlaced) lines.",
+    "instruction": "Uriel: 'Set the first letters of these 5 names, (in Capitall letters) within the fiue acute internall angles of the Pentacle: and the rest of eche name following Circularly from his Capitall letter, but in the 5 exterior obtuse angles of the Pentacle. Set Z, of Zedekieil within the angle which standeth up toward the begynning of the greatest Circle. And so procede toward thy right hand.'",
+    "points": [
+     {
+      "pointDeg": 0,
+      "capitalInsidePoint": "Z",
+      "restOfNameInNextObtuseAngle": "EDEKIEIL",
+      "obtuseAngleMidDeg": 36,
+      "fullName": "Zedekieil"
+     },
+     {
+      "pointDeg": 72,
+      "capitalInsidePoint": "M",
+      "restOfNameInNextObtuseAngle": "ADIMIEL",
+      "obtuseAngleMidDeg": 108,
+      "fullName": "Madimiel"
+     },
+     {
+      "pointDeg": 144,
+      "capitalInsidePoint": "S",
+      "restOfNameInNextObtuseAngle": "EMELIEL",
+      "obtuseAngleMidDeg": 180,
+      "fullName": "Semeliel"
+     },
+     {
+      "pointDeg": 216,
+      "capitalInsidePoint": "N",
+      "restOfNameInNextObtuseAngle": "OGAHEL",
+      "obtuseAngleMidDeg": 252,
+      "fullName": "Nogahel"
+     },
+     {
+      "pointDeg": 288,
+      "capitalInsidePoint": "C",
+      "restOfNameInNextObtuseAngle": "ORABIEL",
+      "obtuseAngleMidDeg": 324,
+      "fullName": "Corabiel"
+     }
+    ],
+    "textNote": "Each tail is written along an arc in the outer obtuse angle just clockwise of its capital: EDEKIEIL between the top and right points, ADIMIEL on the right, EMELIEL at the bottom (upside-down), OGAHEL at the lower left, ORABIEL at the upper left. Each runs clockwise. Checked against Peterson's redrawing."
+   }
+  },
+  {
+   "id": "L10_centerCross",
+   "name": "Central cross: LEVANAEL",
+   "date": "21 March 1582",
+   "geometry": {
+    "shape": "A cross 'like a Crucifix' in the small pentagon at the centre of the pentagram.",
+    "letters": {
+     "top": "VA",
+     "left": "LE",
+     "right": "NA",
+     "bottom": "el (E-L ligature)"
+    },
+    "readingOrder": "LE (left), VA (top), NA (right), EL (bottom) = LEVANAEL, i.e. clockwise starting from the left arm.",
+    "source": "Uriel: 'In the middle now of thy Pentacle, make a cross like a crucifix and write the last of those 7 names Levanael thus:' followed by a small figure: VA above, LE and NA either side, el below (Holden transcription; Peterson's redrawing)."
+   },
+   "ligatureShape_unverified": true
+  }
+ ],
+ "discrepanciesSummary": [
+  "Ring cell 22: dictated as y with 15 below (Holden's printed rendering also shows 15) but Peterson's redrawing shows 14 below, and Jones says the drawn seal differs from the dictation at this cell. Used here: 14 (the drawn seal), marked unverified. The original MS scan available is too low-resolution to settle it.",
+  "Ring cells 9, 20, 30, 32, 38 and 40 were changed between dictation and the finished seal by the angels' own corrections. The final values are used here, and each fits the name derivations.",
+  "Name-of-God row 1: popular redrawings often print 'SAAI EME' without numbers. Dee's table and seal include 21/8 and 8.",
+  "Zabathiel: the table has S in the corner, but the seal has Z.",
+  "Peterson says Dee's wax seal in the British Museum differs in details from Sloane 3188. This file follows the Sloane 3188 drawing.",
+  "The medieval Liber Juratus seal (72-letter Shem ha-Mephorash ring, archangels Zadkiel, Samael, etc.) is a different design. Wikipedia's 'Sigillum Dei' article mostly describes that type. Do not mix the two."
+ ]
+}

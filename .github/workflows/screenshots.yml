@@ -1,0 +1,99 @@
+name: Take Screenshots & Upload to ASC
+
+on:
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: "Upload to App Store Connect"
+        type: boolean
+        default: true
+
+env:
+  SCHEME: SigillumDeiAemeth
+  BUNDLE: com.tokyonasu.SigillumDeiAemeth
+
+jobs:
+  screenshots:
+    runs-on: macos-latest
+    timeout-minutes: 60
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Select Xcode
+      run: |
+        XCODE_APP=$(ls /Applications/ | grep "^Xcode_" | sort -V | tail -1)
+        sudo xcode-select -s "/Applications/$XCODE_APP"
+        xcodebuild -version
+
+    - name: Install XcodeGen
+      run: brew install xcodegen
+
+    - name: Generate Xcode project
+      run: xcodegen generate
+
+    - name: Find Simulators
+      run: |
+        set +e
+        DEVICES=$(xcrun simctl list devices available)
+        pick() { echo "$DEVICES" | grep -E "$1" | head -1 | grep -oE '[0-9A-F-]{36}'; }
+        IPHONE_ID=$(pick "iPhone .*Pro Max")
+        [ -z "$IPHONE_ID" ] && IPHONE_ID=$(pick "iPhone .*Plus")
+        IPAD_ID=$(pick "iPad Pro.*(13|12.9)")
+        [ -z "$IPAD_ID" ] && IPAD_ID=$(pick "iPad Pro")
+        echo "IPHONE_ID=$IPHONE_ID" >> $GITHUB_ENV
+        echo "IPAD_ID=$IPAD_ID" >> $GITHUB_ENV
+        echo "iPhone: $IPHONE_ID / iPad: $IPAD_ID"
+        if [ -z "$IPHONE_ID" ] || [ -z "$IPAD_ID" ]; then echo "Missing a simulator"; exit 1; fi
+
+    - name: Build for Simulator
+      run: |
+        xcodebuild build -scheme "$SCHEME" -configuration Debug \
+          -destination "generic/platform=iOS Simulator" \
+          -derivedDataPath build/DerivedData \
+          CODE_SIGNING_ALLOWED=NO
+
+    - name: Take Screenshots
+      run: |
+        APP_PATH=$(find build/DerivedData -name "$SCHEME.app" -type d | grep -v Index | head -1)
+        mkdir -p screenshots
+        shoot() {
+          DEV=$1; PREFIX=$2
+          xcrun simctl boot "$DEV" || true
+          xcrun simctl bootstatus "$DEV" -b
+          xcrun simctl status_bar "$DEV" override --time "9:41" --batteryState charged --batteryLevel 100 --wifiBars 3 || true
+          xcrun simctl install "$DEV" "$APP_PATH"
+          for LANG in ja en; do
+            for MODE in 1 2 3; do
+              xcrun simctl terminate "$DEV" "$BUNDLE" 2>/dev/null || true
+              sleep 2
+              xcrun simctl launch "$DEV" "$BUNDLE" SCREENSHOT_MODE_$MODE -AppleLanguages "($LANG)" -AppleLocale "$LANG"
+              sleep 10
+              xcrun simctl io "$DEV" screenshot "screenshots/${PREFIX}_${LANG}_${MODE}.png"
+            done
+          done
+          xcrun simctl shutdown "$DEV" || true
+        }
+        shoot "$IPHONE_ID" iphone_67
+        shoot "$IPAD_ID" ipad_129
+        ls -la screenshots
+
+    - name: Upload screenshots artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: screenshots
+        path: screenshots/
+
+    - name: Upload to App Store Connect
+      if: ${{ inputs.upload }}
+      env:
+        ASC_API_KEY_CONTENT: ${{ secrets.ASC_API_KEY_CONTENT }}
+      run: |
+        if echo "$ASC_API_KEY_CONTENT" | grep -q "BEGIN PRIVATE KEY"; then
+          printf '%s' "$ASC_API_KEY_CONTENT" > /tmp/asc_key.p8
+        else
+          echo "$ASC_API_KEY_CONTENT" | base64 -D > /tmp/asc_key.p8
+        fi
+        pip3 install --break-system-packages PyJWT requests cryptography
+        python3 scripts/upload_screenshots.py
+        rm /tmp/asc_key.p8

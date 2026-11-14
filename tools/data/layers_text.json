@@ -1,0 +1,47 @@
+{
+ "_note": "Short explanations per layer, same ids as seal.json. Dates follow Dee's own record (Sloane MS 3188, Mysteriorum Liber Secundus). Angel speech is reported as what Dee wrote down, not as fact.",
+ "overview": {
+  "en": "John Dee drew this seal in his record of spirit sessions held at his house in Mortlake in March 1582. His scryer Edward Kelley, then going by the name Edward Talbot, reported what he saw in a crystal, and Dee wrote it down and drew the figure. Older versions of a 'Seal of God' already existed in medieval magic books. According to Dee's notes, the angels replaced them with this new design.",
+  "ja": "1582年3月、ジョン・ディーはモートレイクの自宅で霊との交信の記録をつけていました。この印章はその記録に描かれています。水晶をのぞいたのは助手のエドワード・ケリーで、当時はエドワード・タルボットと名乗っていました。ケリーが見たものを語り、ディーが書き取って図にしました。「神の印章」と呼ばれる図は中世の魔術書にもありましたが、ディーの記録によると、天使たちはそれに代わる新しい図を示したといいます。"
+ },
+ "L1_outerRing": {
+  "en": "The outer ring has 40 equal cells, each holding a letter and often a number. Dee records that on 19 March 1582 forty white-robed figures stepped forward one by one in Kelley's vision, each showing a letter and number. Some numbers were corrected that same evening. Counting around the ring by these numbers, clockwise or counter-clockwise, spells out seven names, such as Galas, Gethog and Thaoth.",
+  "ja": "いちばん外の輪は40の区画に等分され、各区画に文字が1つと、多くの場合は数字が入ります。ディーの記録では、1582年3月19日、ケリーの幻の中に白い衣の者が40人現れ、1人ずつ文字と数字を見せました。数字の一部はその晩のうちに直されています。数字の分だけ右回りか左回りに数えて進むと、ガラス、ゲトグ、タオトなど7つの名前が読み取れます。"
+ },
+ "L2_galethogSigils": {
+  "en": "Just inside the ring, seven curved segments each hold a sign built from a letter, a cross and a number. Dee records that on 20 March 1582 the angel Michael showed them one at a time on golden plates. Read from right to left, the letters spell GALETHOG, one of the seven names from the outer ring.",
+  "ja": "輪のすぐ内側に弓形の区画が7つあり、それぞれに文字と十字と数字を組み合わせた記号が入ります。ディーの記録によると、1582年3月20日に天使ミカエルが金の板に1つずつ示しました。右から左へ読むと、外輪の7つの名前の1つ「ガレトグ」になります。"
+ },
+ "L3_outerHeptagonBand": {
+  "en": "The large heptagon carries 49 letters, seven on each side. In Kelley's vision of 20 March 1582, Michael drew seven birds out of seven golden baskets, and letters appeared on their feathers. Set out as a 7-by-7 table and read down the columns, the letters give seven angel names: Zaphkiel, Zadkiel, Cumael, Raphael, Haniel, Michael and Gabriel.",
+  "ja": "大きな七角形には49の文字が、1辺に7つずつ並びます。1582年3月20日のケリーの幻では、ミカエルが7つの金のかごから鳥を取り出し、その羽に文字が現れました。文字を7×7の表に並べて縦に読むと、ザフキエル、ザドキエル、クマエル、ラファエル、ハニエル、ミカエル、ガブリエルの7人の天使の名前になります。"
+ },
+ "L4_namesOfGod": {
+  "en": "Along the inside of each heptagon side runs a word such as SAAIEME, BTZKASE or HEIDENE. On 21 March 1582 an angelic trumpeter called seven companies of fiery pillars, and letters appeared in the tops of the pillars. The angel Uriel said that each row, read left to right, is a name of God that no person can speak.",
+  "ja": "七角形の各辺の内側には、SAAIEME、BTZKASE、HEIDENE のような語が並びます。1582年3月21日、天使のラッパ手が火の柱の群れを7つ呼び、柱の頭に文字が現れました。天使ウリエルは、この表の各行を左から右へ読んだものが神の名で、人には発音できないと語っています。"
+ },
+ "L5_heptagram": {
+  "en": "The seven-pointed star holds two families of names. The 'Daughters of Light' (El, Me, Ese and others) sit in the points, and the 'Sons of Light' (I, Ih, Ilr and others) run along the strips. Dee records that on 21 March 1582 seven young women in green and seven young men holding balls of the seven metals appeared and showed these names. All of them can also be read diagonally from the table of the names of God.",
+  "ja": "七芒星には2組の名前が入ります。「光の娘たち」（エル、メ、エセなど）は星の先端に、「光の息子たち」（イ、イフ、イルルなど）は星の帯に沿って書かれます。ディーの記録では、1582年3月21日に緑の服の若い女性7人と、7種の金属の玉を持つ若い男性7人が現れ、名前を示しました。どの名前も、神の名の表を斜めに読むと出てきます。"
+ },
+ "L6_daughtersOfDaughters": {
+  "en": "The next heptagon inward carries the 'Daughters of the Daughters of Light': S, Ab, Ath, Ized, Ekiei, Madimi and Esemeli. In the session of 21 March 1582 they appeared as seven little girls in white with square tablets, and Dee noted that they spoke unclearly. Their names also come from diagonals of the same 7-by-7 table.",
+  "ja": "その内側の七角形には「光の娘たちの娘たち」の名前、S、アブ、アト、イゼド、エキエイ、マディミ、エセメリが入ります。1582年3月21日の交信では、四角い板を持った白い服の幼い少女7人として現れ、言葉がはっきりしなかったとディーは書いています。これらの名前も同じ7×7の表の斜めの列から読み取れます。"
+ },
+ "L7_sonsOfSons": {
+  "en": "The following heptagon carries the 'Sons of the Sons of Light': El, An, Ave, Liba, Rocle, Hagonel and Ilemese. Dee records them as seven small boys in purple with three-cornered green tablets, seen on 21 March 1582. Hagonel later reappears as an important figure in Dee's Heptarchia material.",
+  "ja": "さらに内側の七角形には「光の息子たちの息子たち」の名前、エル、アン、アウェ、リバ、ロクレ、ハゴネル、イレメセが入ります。ディーの記録では、1582年3月21日に紫の服で三角形の緑の板を持つ幼い少年7人として現れました。ハゴネルは、のちにディーの「七王国」に関する資料でも重要な存在として登場します。"
+ },
+ "L8_zabathiel": {
+  "en": "The innermost heptagon holds one letter per side, spelling ZABATHIEL. Its last three letters, 'iel', are written as a single I with small numbers beside it. Uriel showed Dee how to read this name from the table of the names of God on 21 March 1582, and called these seven angels the governors of the seven heavenly circles.",
+  "ja": "いちばん内側の七角形には1辺に1文字ずつ入り、ZABATHIEL（ザバティエル）と読みます。最後の「iel」は、Iの横に小さな数字を添えた1文字で表します。1582年3月21日、ウリエルが神の名の表からこの名前を読む方法をディーに教え、この7人の天使は天の7つの円を治めると語りました。"
+ },
+ "L9_pentagram": {
+  "en": "In the centre is a five-pointed star with one point up. The capital of each name sits inside a point, and the rest of the name follows in the angle beside it: Zedekieil at the top, then Madimiel, Semeliel, Nogahel and Corabiel going clockwise. Dee received these placement instructions from Uriel on 21 March 1582.",
+  "ja": "中央には、先端を1つ真上に向けた五芒星があります。各名前の頭文字を星の先端の中に置き、残りの文字をすぐ隣の角に続けて書きます。真上がゼデキエイルで、右回りにマディミエル、セメリエル、ノガヘル、コラビエルと続きます。この配置は、1582年3月21日にウリエルがディーに指示したものです。"
+ },
+ "L10_centerCross": {
+  "en": "At the very centre is a small cross 'like a crucifix'. The name Levanael is split around it: LE on the left, VA on top, NA on the right and EL at the bottom. It is the last of the seven angel names from the same table, and Dee drew it here as Uriel instructed on 21 March 1582.",
+  "ja": "まさに中心に「十字架像のような」小さな十字があります。レヴァナエルという名前をその周りに分け、左に LE、上に VA、右に NA、下に EL と書きます。これは同じ表から読み取る7人の天使の最後の1人で、1582年3月21日のウリエルの指示どおりにディーが描きました。"
+ }
+}
